@@ -1,5 +1,5 @@
 {% set name = "lume-base" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ead97b1d51226abea1a1923969c4255b1c7e55a8340be0e4d2923256e54dc5f3
+  sha256: 4702fe09a6767a4f551eb62c1bc989d66d5868da8161108559d6adcf4d272853
 
 build:
   noarch: python
