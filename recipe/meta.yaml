@@ -1,13 +1,13 @@
 {% set name = "lume-base" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ad9384dba8757eaad5e0f9188c8aac405355cb2d40923203a903533d5a64d684
+  url: https://github.com/slaclab/{{ name }}/archive/v{{ version }}.tar.gz
+  sha256: 74ef6e46ca397c043d9d7c3dd5ea576d1f363021f97a269d7277df6a5f830084
 
 build:
   noarch: python
