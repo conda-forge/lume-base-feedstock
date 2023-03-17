@@ -1,11 +1,11 @@
-About lume-base
-===============
+About lume-base-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lume-base-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/slaclab/lume-base
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lume-base-feedstock/blob/main/LICENSE.txt)
 
 Summary: Base classes and architecture for LUME Python projects
 
