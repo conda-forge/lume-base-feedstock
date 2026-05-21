@@ -1,5 +1,6 @@
 {% set name = "lume-base" %}
 {% set version = "0.4.1" %}
+{% set python_min = "3.10" %}
 
 package:
   name: {{ name|lower }}
@@ -11,17 +12,20 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - python {{ python_min }}
     - pip
+    - setuptools
   run:
     - python >={{ python_min }}
+    - h5py
     - numpy
     - openpmd-beamphysics
+    - pydantic
     - pyyaml
 
 test:
@@ -43,6 +47,5 @@ about:
 
 extra:
   recipe-maintainers:
-    - hhslepicka
     - ChristopherMayes
-    - jacquelinegarrahan
+    - ken-lauer
