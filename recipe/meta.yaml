@@ -20,6 +20,7 @@ requirements:
     - python {{ python_min }}
     - pip
     - setuptools
+    - setuptools-scm >=8
   run:
     - python >={{ python_min }}
     - h5py
@@ -31,8 +32,16 @@ requirements:
 test:
   requires:
     - python {{ python_min }}
+    - pytest
   imports:
+    - lume
     - lume.base
+    - lume.parsers
+    - lume.serializers
+    - lume.tests
+    - lume.variables
+  commands:
+    - pytest -v --pyargs lume.tests
 
 about:
   home: https://github.com/slaclab/lume-base
