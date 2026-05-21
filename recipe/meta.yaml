@@ -1,5 +1,5 @@
 {% set name = "lume-base" %}
-{% set version = "0.4.3" %}
+{% set version = "0.4.4" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/slaclab/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 678d3bf5b5157e7ac51dbe289d221ba8f47317e7669da7489fbf486e8fc4ffcf
+  sha256: e6b33a5f96f3408df12b2ce31ef18742bf7ced657b8643aeb368f5d24292fd38
 
 build:
   noarch: python
