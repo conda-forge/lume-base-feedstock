@@ -150,6 +150,5 @@ Feedstock Maintainers
 =====================
 
 * [@ChristopherMayes](https://github.com/ChristopherMayes/)
-* [@hhslepicka](https://github.com/hhslepicka/)
-* [@jacquelinegarrahan](https://github.com/jacquelinegarrahan/)
+* [@ken-lauer](https://github.com/ken-lauer/)
 
