@@ -51,10 +51,11 @@ about:
   summary: Base classes and architecture for LUME Python projects
   description: |
     Base classes and architecture for LUME Python projects
-  doc_url: https://slaclab.github.io/lume-base
+  doc_url: https://lume-science.github.io/lume-base
   dev_url: https://github.com/lume-science/lume-base
 
 extra:
   recipe-maintainers:
     - ChristopherMayes
     - ken-lauer
+    - tangkong
