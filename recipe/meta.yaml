@@ -1,5 +1,5 @@
 {% set name = "lume-base" %}
-{% set version = "0.4.4" %}
+{% set version = "0.5.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/slaclab/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: e6b33a5f96f3408df12b2ce31ef18742bf7ced657b8643aeb368f5d24292fd38
+  url: https://github.com/lume-science/{{ name }}/archive/v{{ version }}.tar.gz
+  sha256: 569be26270f481f89a87c3665be5fb39c3d1198245c5b63b9427df8e24dd9dce
 
 build:
   noarch: python
@@ -44,17 +44,18 @@ test:
     - pytest -v --pyargs lume.tests
 
 about:
-  home: https://github.com/slaclab/lume-base
+  home: https://github.com/lume-science/lume-base
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
   summary: Base classes and architecture for LUME Python projects
   description: |
     Base classes and architecture for LUME Python projects
-  doc_url: https://slaclab.github.io/lume-base
-  dev_url: https://github.com/slaclab/lume-base
+  doc_url: https://lume-science.github.io/lume-base
+  dev_url: https://github.com/lume-science/lume-base
 
 extra:
   recipe-maintainers:
     - ChristopherMayes
     - ken-lauer
+    - tangkong
