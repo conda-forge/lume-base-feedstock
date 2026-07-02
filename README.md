@@ -11,7 +11,7 @@ Summary: Base classes and architecture for LUME Python projects
 
 Development: https://github.com/lume-science/lume-base
 
-Documentation: https://slaclab.github.io/lume-base
+Documentation: https://lume-science.github.io/lume-base
 
 Base classes and architecture for LUME Python projects
 
@@ -153,7 +153,5 @@ Feedstock Maintainers
 
 * [@ChristopherMayes](https://github.com/ChristopherMayes/)
 * [@ken-lauer](https://github.com/ken-lauer/)
-
-
-<!-- dummy commit to enable rerendering -->
+* [@tangkong](https://github.com/tangkong/)
 
